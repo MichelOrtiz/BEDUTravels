@@ -1,0 +1,15 @@
+.contenedor{
+    border: 1px solid blueviolet;
+    padding: 1em;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.contenedor div{
+    border: 1px solid navy;
+}
+/*display:flex;
+    flex-direction: column/ row;
+    justify-content: center/ flex-start/ flex-end/ space-around;
+
+*/

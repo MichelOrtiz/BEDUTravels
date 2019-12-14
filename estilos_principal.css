@@ -1,0 +1,33 @@
+body{
+    background-image: url(img_cover_home.jpg);
+    background-size: cover;
+}
+.menu{
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-between;
+}
+#logo{
+    align-items: center;
+    padding: 1em;
+}
+.botones_sign{
+    color: white;
+    background-color: transparent;
+    padding:1em;
+    align-items:center;
+}
+.contenedor_busqueda{
+    justify-content: center;
+    color:white;
+}
+
+/*display:flex;
+    flex-direction: column/ row / column-reverse;
+        justify-content: center/ flex-start/ flex-end/ space-around;
+            align-items: baseline / flex-start /flex-end / stretch;
+    align-self: 1em / 2px;
+    flex-basis: 100px;
+    flex-grow:1;
+*/
